@@ -1,0 +1,98 @@
+﻿
+@{
+    ViewBag.Title = "OficinaComercial1";
+}
+
+
+<style>
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+    }
+    .flechas{
+        color:dodgerblue;
+        background-color:white;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-3 texto">
+        <p>SINDICATO EASA</p>
+        <p>PROYECTO NUEVO SINDICATO EASA</p>
+        <p>SAN MIGUEL / STGO. / CHILE / 2011</p>
+    </div>
+    <div class="col-md-6 center-block">
+        <!-- Carousel
+        ================================================== -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="background-color:white">
+            <!-- Indicators -->
+            <ol class="carousel-indicators carousel">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+                <li data-target="#myCarousel" data-slide-to="8"></li>
+                <li data-target="#myCarousel" data-slide-to="9"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA1.PNG" rel="shadowbox"><img src="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA11.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA2.PNG" rel="shadowbox"><img src="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA22.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA3.PNG" rel="shadowbox"><img src="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA33.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA4.PNG" rel="shadowbox"><img src="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA44.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA5.PNG" rel="shadowbox"><img src="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA55.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA6.PNG" rel="shadowbox"><img src="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA66.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA7.PNG" rel="shadowbox"><img src="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA77.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA8.PNG" rel="shadowbox"><img src="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA88.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA9.PNG" rel="shadowbox"><img src="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA99.PNG" style="width:350px;height:250px;"></a>
+                </div>
+            </div>
+            @*<a class="left carousel-control flechas" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control flechas" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>*@
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <a href="@Url.Action("OficinaComercial2","Home")"><p class="texto1">OFICINAS CEM S.A.</p></a>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-1 col-md-offset-1">
+        <a href="@Url.Action("OficinaComercial","Home")">
+            <i class="glyphicon glyphicon-arrow-left" style="color:black"></i>
+        </a>
+    </div>
+</div>
+
+

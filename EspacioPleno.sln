@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Web", "1.Web", "{BB77F8E5-FC6B-4C33-A3EF-87EB7E3F6E1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Escritorio", "2.Escritorio", "{E2586172-01DC-435D-BABC-666B469F7DEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Servicio", "3.Servicio", "{28ECB552-9D59-4A5B-AE7A-656AF412D8EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Negocio", "4.Negocio", "{8A6C3A89-32F9-4565-9A6E-6324003FEA4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.DAO", "5.DAO", "{104AAE51-ACCA-40FF-BAE5-0FFEEF784231}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.ORM", "6.ORM", "{0022AD37-6C25-4DD9-83E7-D13A57A935B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolaDePruebas", "ConsolaDePruebas\ConsolaDePruebas.csproj", "{16C6DECF-D80F-476E-87C8-EDD0AA0AB64E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcEspacioPleno", "MvcEspacioPleno\MvcEspacioPleno.csproj", "{13FA5A80-7A93-43D6-AA7A-FD86836EF6C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16C6DECF-D80F-476E-87C8-EDD0AA0AB64E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C6DECF-D80F-476E-87C8-EDD0AA0AB64E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C6DECF-D80F-476E-87C8-EDD0AA0AB64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C6DECF-D80F-476E-87C8-EDD0AA0AB64E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13FA5A80-7A93-43D6-AA7A-FD86836EF6C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FA5A80-7A93-43D6-AA7A-FD86836EF6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13FA5A80-7A93-43D6-AA7A-FD86836EF6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13FA5A80-7A93-43D6-AA7A-FD86836EF6C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16C6DECF-D80F-476E-87C8-EDD0AA0AB64E} = {E2586172-01DC-435D-BABC-666B469F7DEA}
+		{13FA5A80-7A93-43D6-AA7A-FD86836EF6C9} = {BB77F8E5-FC6B-4C33-A3EF-87EB7E3F6E1A}
+	EndGlobalSection
+EndGlobal

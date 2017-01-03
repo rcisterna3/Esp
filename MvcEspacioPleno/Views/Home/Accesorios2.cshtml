@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewBag.Title = "Accesorios1";
+}
+
+
+<style>
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+    }
+    .flechas{
+        color:dodgerblue;
+        background-color:white;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-3 texto">
+        <p>BOTELLERO PM</p>
+        <p>MADERA</p>
+        <p>SANTIAGO / CHILE / 2016</p>
+    </div>
+    <div class="col-md-6 center-block">
+        <!-- Carousel
+        ================================================== -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="background-color:white">
+            <!-- Indicators -->
+            <ol class="carousel-indicators carousel">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="~/img/BOTELLERO/FCPMP-01.PNG" rel="shadowbox"><img src="~/img/BOTELLERO/FCPMP-011.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/BOTELLERO/FCPMP-02.PNG" rel="shadowbox"><img src="~/img/BOTELLERO/FCPMP-022.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/BOTELLERO/FCPMP-03.PNG" rel="shadowbox"><img src="~/img/BOTELLERO/FCPMP-033.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/BOTELLERO/FCPMP-04.PNG" rel="shadowbox"><img src="~/img/BOTELLERO/FCPMP-044.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/BOTELLERO/FCPMP-05.PNG" rel="shadowbox"><img src="~/img/BOTELLERO/FCPMP-05.PNG" style="width:350px;height:250px;"></a>
+                </div>
+
+            </div>
+            @*<a class="left carousel-control flechas" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control flechas" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>*@
+        </div>
+    </div>
+    <div class="col-md-3">
+        <a href="@Url.Action("Accesorios1","Home")"><p class="texto1">LAMPARA PM</p></a>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-1 col-md-offset-1">
+        <a href="@Url.Action("Accesorios","Home")">
+            <i class="glyphicon glyphicon-arrow-left" style="color:black"></i>
+        </a>
+    </div>
+</div>
+

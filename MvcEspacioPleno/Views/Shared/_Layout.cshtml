@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div id="micontenido" style="display:none">
+        <div style="background-color:white">
+            <div class="container text-center">
+                <a href="@Url.Action("Menu","Home")">
+                    <img src="~/img/EP_LOGO_3.png" class="img-responsive center-block">
+                </a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" style="height:340px">
+                @RenderBody()
+            </div>
+        </div>
+        <br>
+        <br>
+        <footer class="container-fluid text-center">
+            <div class="direccionFooter2 LeyendaFooter">
+                arquitectura@espaciopleno.cl<br />
+                Padre Mariano 192-66  |  Providencia  |  +56 9 91592046
+            </div>
+        </footer>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script>
+     $(document).ready(function () {
+     $('#micontenido').fadeIn(2500);
+     });
+     Shadowbox.init();
+    </script>
+</body>
+</html>

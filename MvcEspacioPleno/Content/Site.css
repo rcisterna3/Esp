@@ -1,0 +1,171 @@
+﻿/*body {
+    width:1200px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}*/
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#thumbnail-preview-indicators {
+  position: relative;
+  overflow: hidden;
+}
+#thumbnail-preview-indicators .slides .slide-1, 
+#thumbnail-preview-indicators .slides .slide-2,
+#thumbnail-preview-indicators .slides .slide-3 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+    #thumbnail-preview-indicators,
+    #thumbnail-preview-indicators .slides,
+    #thumbnail-preview-indicators .slides .slide-1, 
+    #thumbnail-preview-indicators .slides .slide-2,
+    #thumbnail-preview-indicators .slides .slide-3 {
+      height: 480px;
+    }
+#thumbnail-preview-indicators .slides .slide-1 {
+  background-image: url(~/img/VIVIENDA_RENCA/EP_FP_RENCA1_01.jpg); 
+}
+#thumbnail-preview-indicators .slides .slide-2 {
+  background-image: url(~/img/VIVIENDA_RENCA/EP_FP_RENCA1_01.jpg);
+}
+#thumbnail-preview-indicators .slides .slide-3 {
+  background-image: url(https://s3.amazonaws.com/ooomf-com-files/mtNrf7oxS4uSxTzMBWfQ_DSC_0043.jpg);
+}
+#thumbnail-preview-indicators .carousel-inner .item .carousel-caption {
+  top: 20%;
+  bottom: inherit;
+}
+#thumbnail-preview-indicators .carousel-indicators li,
+#thumbnail-preview-indicators .carousel-indicators li.active {
+  position: relative;
+  width: 100px;
+  height: 8px;  
+}
+#thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  display: none;
+  opacity: 0;
+  left: 50%;
+  margin-top: -80px;
+  margin-left: -50px;
+}
+#thumbnail-preview-indicators .carousel-indicators li:hover > .thumbnail,
+#thumbnail-preview-indicators .carousel-indicators li.active > .thumbnail {
+  display: block;
+  opacity: .8;
+}
+#thumbnail-preview-indicators .carousel-indicators li.active > .thumbnail:hover{
+  opacity: 1;
+}
+@media screen and (max-width : 480px) {    
+    #thumbnail-preview-indicators .carousel-indicators li,
+    #thumbnail-preview-indicators .carousel-indicators li.active {
+      width: 50px;
+      height: 8px;
+      position: relative;
+    }
+    #thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
+       width: 50px;
+       left: 50%;
+       margin-top: -50px;
+       margin-left: -25px;
+    }
+}
+
+/*.logo
+{
+    margin-top:200PX;
+
+    width: auto;
+    height: auto;
+    left: 35%;
+    top: 100%;
+    position: relative;
+}*/
+
+/*.direccionFooter2
+{
+    width: 600px;
+    height: auto;
+    margin-left: -130px;
+    left: 45%;
+    top: 100%;
+    position: relative;
+}*/
+
+.direccion 
+{
+    width: 600px;
+    height: auto;
+    margin-left: -90px;
+    left: 45%;
+    top: 100%;
+    position: relative;
+}
+
+@font-face {
+font-family: Aileron-Black;
+src: url(../fonts/Aileron-Black.otf);
+}
+
+.LeyendaFooter{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.link{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration:none;
+    color:black;
+}
+
+.texto{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration:none;
+    color:black;
+}
+
+.texto1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration:none;
+}
+
+.banner
+{
+     margin-left: -190px;
+     left: 45%;
+     width: auto;
+     height: auto;
+     position: relative;
+     top:-30px;
+}
+    .flechas{
+        color:dodgerblue;
+        background-color:white;
+        opacity:0.01;
+    }

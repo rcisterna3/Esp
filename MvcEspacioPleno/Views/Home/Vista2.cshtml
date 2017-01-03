@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Vista2</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div id="micontenido" style="display:none">
+        <div class="container" style="background-color:white">
+            <div class="row" style="margin-top:20%">
+                <div class="col-xs-12 col-sm-5 col-md-offset-4 text-left">
+                    <a href="@Url.Action("Menu","Home")">
+                        <img src="~/img/EP_LOGO_3.png" class="img-responsive">
+                    </a>
+                    <div class="LeyendaFooter">
+                        arquitectura@espaciopleno.cl<br />
+                        Padre Mariano 192-66  |  Providencia  |  +56 9 91592046
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script>
+     $(document).ready(function () {
+     $('#micontenido').fadeIn(2500);
+     });
+     Shadowbox.init();
+    </script>
+</body>
+</html>

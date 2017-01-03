@@ -1,0 +1,89 @@
+﻿
+@{
+    ViewBag.Title = "MobiliarioCocina1";
+}
+
+
+<style>
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+    }
+    .flechas{
+        color:dodgerblue;
+        background-color:white;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-3 texto">
+        <p>COCINA HUNT</p>
+        <p>REMODELACION DEPARTAMENTO</p>
+        <p>PROVIDENCIA / STGO. / CHILE / 2015</p>
+    </div>
+    <div class="col-md-6 center-block">
+        <!-- Carousel
+        ================================================== -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="background-color:white">
+            <!-- Indicators -->
+            <ol class="carousel-indicators carousel">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="~/img/HUNT/EP_FP_MC_COCINA_HUNT_01.PNG" rel="shadowbox"><img src="~/img/HUNT/EP_FP_MC_COCINA_HUNT_011.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/HUNT/EP_FP_MC_COCINA_HUNT_02.PNG" rel="shadowbox"><img src="~/img/HUNT/EP_FP_MC_COCINA_HUNT_022.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/HUNT/EP_FP_MC_COCINA_HUNT_03.PNG" rel="shadowbox"><img src="~/img/HUNT/EP_FP_MC_COCINA_HUNT_033.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/HUNT/EP_FP_MC_COCINA_HUNT_04.PNG" rel="shadowbox"><img src="~/img/HUNT/EP_FP_MC_COCINA_HUNT_044.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/HUNT/EP_FP_MC_COCINA_HUNT_05.PNG" rel="shadowbox"><img src="~/img/HUNT/EP_FP_MC_COCINA_HUNT_055.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/HUNT/EP_FP_MC_COCINA_HUNT_06.PNG" rel="shadowbox"><img src="~/img/HUNT/EP_FP_MC_COCINA_HUNT_066.PNG" style="width:350px;height:250px;"></a>
+                </div>
+
+            </div>
+            @*<a class="left carousel-control flechas" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control flechas" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>*@
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <a href="@Url.Action("MobiliarioCocina2","Home")"><p class="texto1">COCINA LAS CONDES</p></a>
+        <a href="@Url.Action("MobiliarioCocina3","Home")"><p class="texto1">COCINA PATRICIA</p></a>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-1 col-md-offset-1">
+        <a href="@Url.Action("MobiliarioCocina","Home")">
+            <i class="glyphicon glyphicon-arrow-left" style="color:black"></i>
+        </a>
+    </div>
+</div>
+
+

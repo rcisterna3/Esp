@@ -1,0 +1,97 @@
+﻿
+@{
+    ViewBag.Title = "OficinaComercial2";
+}
+
+
+<style>
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+    }
+    .flechas{
+        color:dodgerblue;
+        background-color:white;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-3 texto">
+        <p>OFICINAS CEM. S.A.</p>
+        <p>REMODELACION Y PROYECTOS DE OFICINA</p>
+        <p>SANTIAGO / CHILE / 2010</p>
+    </div>
+    <div class="col-md-6 center-block">
+        <!-- Carousel
+        ================================================== -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="background-color:white">
+            <!-- Indicators -->
+            <ol class="carousel-indicators carousel">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+                <li data-target="#myCarousel" data-slide-to="8"></li>
+                <li data-target="#myCarousel" data-slide-to="9"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="~/img/CEM/EP_FP_CEM_SA_01.PNG" rel="shadowbox"><img src="~/img/CEM/EP_FP_CEM_SA_011.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/CEM/EP_FP_CEM_SA_02.PNG" rel="shadowbox"><img src="~/img/CEM/EP_FP_CEM_SA_022.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/CEM/EP_FP_CEM_SA_03.PNG" rel="shadowbox"><img src="~/img/CEM/EP_FP_CEM_SA_033.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/CEM/EP_FP_CEM_SA_04.PNG" rel="shadowbox"><img src="~/img/CEM/EP_FP_CEM_SA_044.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/CEM/EP_FP_CEM_SA_05.PNG" rel="shadowbox"><img src="~/img/CEM/EP_FP_CEM_SA_055.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/CEM/EP_FP_CEM_SA_06.PNG" rel="shadowbox"><img src="~/img/CEM/EP_FP_CEM_SA_066.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/CEM/EP_FP_CEM_SA_07.PNG" rel="shadowbox"><img src="~/img/CEM/EP_FP_CEM_SA_077.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/CEM/EP_FP_CEM_SA_08.PNG" rel="shadowbox"><img src="~/img/CEM/EP_FP_CEM_SA_088.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/CEM/EP_FP_CEM_SA_09.PNG" rel="shadowbox"><img src="~/img/CEM/EP_FP_CEM_SA_099.PNG" style="width:350px;height:250px;"></a>
+                </div>
+            </div>
+            @*<a class="left carousel-control flechas" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control flechas" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>*@
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <a href="@Url.Action("OficinaComercial1","Home")"><p class="texto1">SINDICATO EASA</p></a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-1 col-md-offset-1">
+        <a href="@Url.Action("OficinaComercial","Home")">
+            <i class="glyphicon glyphicon-arrow-left" style="color:black"></i>
+        </a>
+    </div>
+</div>
+
+

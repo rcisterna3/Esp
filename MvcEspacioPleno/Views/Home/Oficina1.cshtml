@@ -1,0 +1,89 @@
+﻿
+@{
+    ViewBag.Title = "Vivienda3";
+}
+
+<style>
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+    }
+    .flechas{
+        color:dodgerblue;
+        background-color:white;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-3 texto">
+        <p>SINDICATO EASA</p>
+        <p>PROYECTO NUEVO SINDICATO EASA</p>
+        <p>SAN MIGUEL / STGO. / CHILE / 2011</p>
+    </div>
+    <div class="col-md-6 center-block">
+        <!-- Carousel
+        ================================================== -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="background-color:white">
+            <!-- Indicators -->
+            <ol class="carousel-indicators carousel">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+                <li data-target="#myCarousel" data-slide-to="8"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA1.jpg" class="img-responsive" style="width:350px;height:250px;" alt="Primer slide">
+                </div>
+                <div class="item">
+                    <img src="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA2.jpg" class="img-responsive" style="width:350px;height:250px;" alt="Segundo slide">
+                </div>
+                <div class="item">
+                    <img src="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA3.jpg" class="img-responsive" style="width:350px;height:250px;" alt="Tercero slide">
+                </div>
+                <div class="item">
+                    <img src="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA4.jpg" class="img-responsive" style="width:350px;height:250px;" alt="Cuarto slide">
+                </div>
+                <div class="item">
+                    <img src="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA5.jpg" class="img-responsive" style="width:350px;height:250px;" alt="Quinto slide">
+                </div>
+                <div class="item">
+                    <img src="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA6.jpg" class="img-responsive" style="width:350px;height:250px;" alt="Sexto slide">
+                </div>
+                <div class="item">
+                    <img src="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA7.jpg" class="img-responsive" style="width:350px;height:250px;" alt="Septimo slide">
+                </div>
+                <div class="item">
+                    <img src="~/img/SINDICATO_EASA/EP_FP_SINDICATO_EASA8.jpg" class="img-responsive" style="width:350px;height:250px;" alt="Octavo slide">
+                </div>
+            </div>
+            <a class="left carousel-control flechas" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control flechas" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+    <a href="@Url.Action("Vivienda2","Home")"><span class="texto">CASA RINCONADA</span></a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4  col-md-offset-4">
+        <a href="@Url.Action("Portafolio","Home")">
+            <img src="~/img/Volver.jpg" style="width:30px;height:30px">
+        </a>
+    </div>
+</div>

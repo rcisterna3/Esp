@@ -1,0 +1,102 @@
+﻿
+@{
+    ViewBag.Title = "Vivienda3";
+}
+
+<style>
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+    }
+    .flechas{
+        color:dodgerblue;
+        background-color:white;
+    }
+</style>
+
+<div class="row">
+        <div class="col-md-3 texto">
+            <p>CASA FUENTES</p>
+            <p>REMODELACION Y AMPLIACION 1er y 2do PISO 159 M2</p>
+            <p>LA REINA / STGO. / CHILE / 2016</p>
+        </div>  
+    
+    <div class="col-md-6 center-block">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="background-color:white">
+            <!-- Indicators -->
+            <ol class="carousel-indicators carousel">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+                <li data-target="#myCarousel" data-slide-to="8"></li>
+                <li data-target="#myCarousel" data-slide-to="9"></li>
+                <li data-target="#myCarousel" data-slide-to="10"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                @*<div class="item active">
+                    <a href="~/img/CASA_FUENTES/EP_FP_CASA_FUENTES_011.PNG" rel="shadowbox"><img src="~/img/CASA_FUENTES/EP_FP_CASA_FUENTES_01.PNG" style="width:350px;height:250px;"></a>
+                </div>*@
+                <div class="item active">
+                    <a href="~/img/CASA_FUENTES/EP_FP_FUENTES_1111.PNG" rel="shadowbox"><img src="~/img/CASA_FUENTES/EP_FP_FUENTES_11.PNG" style="width:350px;height:250px;" alt="Responsive image" class="img-responsive"></a>
+                </div>
+
+                <div class="item">
+                    <a href="~/img/CASA_FUENTES/EP_FP_FUENTES_033.PNG" rel="shadowbox"><img src="~/img/CASA_FUENTES/EP_FP_FUENTES_03.PNG" style="width:350px;height:250px;" alt="Responsive image" class="img-responsive"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/CASA_FUENTES/EP_FP_FUENTES_044.PNG" rel="shadowbox"><img src="~/img/CASA_FUENTES/EP_FP_FUENTES_04.PNG" style="width:350px;height:250px;" alt="Responsive image" class="img-responsive"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/CASA_FUENTES/EP_FP_FUENTES_055.PNG" rel="shadowbox"><img src="~/img/CASA_FUENTES/EP_FP_FUENTES_05.PNG" style="width:350px;height:250px;" alt="Responsive image" class="img-responsive"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/CASA_FUENTES/EP_FP_FUENTES_066.PNG" rel="shadowbox"><img src="~/img/CASA_FUENTES/EP_FP_FUENTES_06.PNG" style="width:350px;height:250px;" alt="Responsive image" class="img-responsive"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/CASA_FUENTES/EP_FP_FUENTES_077.PNG" rel="shadowbox"><img src="~/img/CASA_FUENTES/EP_FP_FUENTES_07.PNG" style="width:350px;height:250px;" alt="Responsive image" class="img-responsive"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/CASA_FUENTES/EP_FP_FUENTES_088.PNG" rel="shadowbox"><img src="~/img/CASA_FUENTES/EP_FP_FUENTES_08.PNG" style="width:350px;height:250px;" alt="Responsive image" class="img-responsive"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/CASA_FUENTES/EP_FP_FUENTES_099.PNG" rel="shadowbox"><img src="~/img/CASA_FUENTES/EP_FP_FUENTES_09.PNG" style="width:350px;height:250px;" alt="Responsive image" class="img-responsive"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/CASA_FUENTES/EP_FP_FUENTES_1010.PNG" rel="shadowbox"><img src="~/img/CASA_FUENTES/EP_FP_FUENTES_10.PNG" style="width:350px;height:250px;" alt="Responsive image" class="img-responsive"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/CASA_FUENTES/EP_FP_FUENTES_022.PNG" rel="shadowbox"><img src="~/img/CASA_FUENTES/EP_FP_FUENTES_02.PNG" style="width:350px;height:250px;" alt="Responsive image" class="img-responsive"></a>
+                </div>
+            </div>
+            @*<a class="left carousel-control flechas" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control flechas" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>*@
+        </div>
+    </div>
+   
+    <div class="col-md-3">
+        <a href="@Url.Action("Vivienda1","Home")"><p class="texto1">CASA RENCA-1</p></a>
+        <a href="@Url.Action("Vivienda2","Home")"><p class="texto1">CASA RINCONADA</p></a>
+    </div> 
+</div>
+<br />
+<div class="row">
+    <div class="col-md-1 col-md-offset-1">
+        <a href="@Url.Action("Vivienda","Home")">
+            <i class="glyphicon glyphicon-arrow-left" style="color:black"></i>
+        </a>
+    </div>
+</div>

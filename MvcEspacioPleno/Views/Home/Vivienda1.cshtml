@@ -1,0 +1,93 @@
+﻿
+@{
+    ViewBag.Title = "Vivienda1";
+}
+
+<style>
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+    }
+        .flechas{
+        color:dodgerblue;
+        background-color:white;
+        opacity:0.01;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-3 texto">
+        <p>CASA RENCA-1</p>
+        <p>AMPLIACION 2° PISO 49m2</p>
+        <p>RENCA / STGO / CHILE / 2011</p>
+    </div>  
+    <div class="col-md-6 center-block">
+        <!-- Carousel
+        ================================================== -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="background-color:white">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+                <li data-target="#myCarousel" data-slide-to="8"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="~/img/VIVIENDA_RENCA/EP_FP_RENCA1_011.png" rel="shadowbox"><img src="~/img/VIVIENDA_RENCA/EP_FP_RENCA1_01.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/VIVIENDA_RENCA/EP_FP_RENCA1_022.png" rel="shadowbox"><img src="~/img/VIVIENDA_RENCA/EP_FP_RENCA1_02.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/VIVIENDA_RENCA/EP_FP_RENCA1_033.png" rel="shadowbox"><img src="~/img/VIVIENDA_RENCA/EP_FP_RENCA1_03.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/VIVIENDA_RENCA/EP_FP_RENCA1_044.png" rel="shadowbox"><img src="~/img/VIVIENDA_RENCA/EP_FP_RENCA1_04.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/VIVIENDA_RENCA/EP_FP_RENCA1_055.png" rel="shadowbox"><img src="~/img/VIVIENDA_RENCA/EP_FP_RENCA1_05.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/VIVIENDA_RENCA/EP_FP_RENCA1_066.png" rel="shadowbox"><img src="~/img/VIVIENDA_RENCA/EP_FP_RENCA1_06.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/VIVIENDA_RENCA/EP_FP_RENCA1_077.png" rel="shadowbox"><img src="~/img/VIVIENDA_RENCA/EP_FP_RENCA1_07.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/VIVIENDA_RENCA/EP_FP_RENCA1_088.png" rel="shadowbox"><img src="~/img/VIVIENDA_RENCA/EP_FP_RENCA1_08.PNG" style="width:350px;height:250px;"></a>
+                </div>
+                <div class="item">
+                    <a href="~/img/VIVIENDA_RENCA/EP_FP_RENCA1_099.png" rel="shadowbox"><img src="~/img/VIVIENDA_RENCA/EP_FP_RENCA1_09.PNG" style="width:350px;height:250px;"></a>
+                </div>
+            </div>
+            @*<a class="left carousel-control flechas"  href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control flechas" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>*@
+        </div>
+    </div><!-- /.carousel -->
+
+        <div class="col-md-3">
+                <a href="@Url.Action("Vivienda2","Home")"><p class="texto1">CASA RINCONADA</p></a>
+                <a href="@Url.Action("Vivienda3","Home")"><p class="texto1">CASA FUENTES</p></a>
+        </div>
+</div>
+<br />
+<div class="row">
+    <div class="col-md-1 col-md-offset-1">
+        <a href="@Url.Action("Vivienda","Home")">
+            <i class="glyphicon glyphicon-arrow-left" style="color:black"></i>
+        </a>
+    </div>
+</div>
